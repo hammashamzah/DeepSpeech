@@ -24,7 +24,7 @@ pip install deepspeech-gpu
 pip install -r requirements.txt
 
 
-python util/taskcluster.py --target . --arch gpu
+python util/taskcluster.py --target native_client --arch gpu
 
 # naively uninstall tensorflow and install the gpu version
 
